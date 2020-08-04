@@ -13,7 +13,7 @@ echo "Installing Dependencies"
 yes | pip install youtube-dl
 
 echo "Creating the Youtube folder to download the files"
-mkdir ~/storage/shared/youtube
+mkdir ~/sdcard/youtube
 
 echo "Creating youtube-dl folder for config"
 mkdir -p ~/.config/youtube-dl
